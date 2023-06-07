@@ -8,8 +8,8 @@ namespace Project1.Model
 {
     public class ShoesType
     {
-       int Id { get; set; }
-        ICollection<Shoes>Shoes { get; set; }
+       public int Id { get; set; }
+       public ICollection<Shoes>Shoes { get; set; }
 
     } 
 }
